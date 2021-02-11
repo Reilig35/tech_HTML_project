@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+    <head>
+        <title>Basic HTML</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>The Basic HTML Template</header>
+        <p>Introduction to basic HTML syntax</p>
+    </body>
+    <footer>
+        <p>William Twomey &#xa9;</p>
+    </footer>
+</html>
