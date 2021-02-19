@@ -2,171 +2,179 @@
 <html lang="en-IE">
     <head>
         <meta charset="utf-8">
-        <title>William's Space Station Adventure</title>
+        <title>Space Station Adventure</title>
+        <link rel="stylesheet" type="text/css" href="./css/shared.css">
+        <link rel="stylesheet" type="text/css" href="./css/animations.css">
     </head>
     <body>
         
         <!-- NAV -->
-        <div>
-            <div>
-                <ul>
-                    <a href="#home" id="link"><li>HOME</li></a>
-                    <a href="#gallery" id="link"><li>GALLERY</li></a>
-                    <a href="#reservations" id="link"><li>RESERVATIONS</li></a>
-                </ul>
+        <navbar>
+            <div class="wrap">
+                    <div class="menu-container">
+                    <ul class="menu">
+                        <a href="#home" id="link"><li>HOME</li></a>
+                        <a href="#gallery" id="link"><li>GALLERY</li></a>
+                        <a href="#reservation" id="link"><li>RESERVATIONS</li></a>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </navbar>
         <!-- END NAV -->
         
         <!-- HOME -->
         <div id="home">
-            <div>
-                <span>The Space Station</span>
+            <div class="container">
+                <div class="text-centre">    
+                    <span class="head-main">The Space Station</span>
+                </div>
             </div>
         </div>
         <!-- END HOME -->
         
         <!-- Gallery -->
-        <section>
-            <div id="gallery">
+        <section id="gallery">
+            <div class="container">
                 <h1>Gallery</h1>
+                <div class="flex-container">
+                    
+                    <!--PHOTO CONTAINER 1-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_1.jpg" alt="thumbnail_1">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>Departing four times a day, book now!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 1-->
+
+                    <!--PHOTO CONTAINER 2-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_2.jpg" alt="thumbnail_2">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>See the Earth like never before!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 2-->
+
+                    <!--PHOTO CONTAINER 3-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_3.jpg" alt="thumbnail_3">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>Our rockets are raring to go!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 3-->
+
+                    <!--PHOTO CONTAINER 4-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_4.jpg" alt="thumbnail_4">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>Visit our new spacestation!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 4-->
+
+                    <!--PHOTO CONTAINER 5-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_5.jpg" alt="thumbnail_5">
+                             <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>Our prices won't like a black hole in your pocket!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 5-->
+
+                    <!--PHOTO CONTAINER 6-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_6.jpg" alt="thumbnail_6">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>See the Earth at night and day at the same time!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 6-->
+
+                    <!--PHOTO CONTAINER 7-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_7.jpg" alt="thumbnail_7">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>Moon tours coming soon!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 7-->
+
+                    <!--PHOTO CONTAINER 8-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_8.jpg" alt="thumbnail_8">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>New moon pod ready to go!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO CONTAINER 8-->
+
+                    <!--PHOTO CONTAINER 9-->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/Thumb/thumbnail_9.jpg" alt="thumbnail_9">
+                            <div class="photo-overlay">
+                                <h3>Click to Enlarge</h3>
+                                <p>See voyager 2 in allit's glory!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                        <!--END PHOTO CONTAINER 9-->
+                </div>
             </div>
-            
-                <!-- PHOTO CONTAINER 1 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_1.jpg" alt="Milky Way Galaxy">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 1 -->
-            
-            <!-- PHOTO CONTAINER 2 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_2.jpg" alt="Planet Earth">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 2 -->
-            
-            <!-- PHOTO CONTAINER 3 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_3.jpg" alt="Space Shuttle">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 3 -->
-            
-            <!-- PHOTO CONTAINER 4 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_4.jpg" alt="International Space Station">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 4 -->
-            
-            <!-- PHOTO CONTAINER 5 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_5.jpg" alt="Black Hole">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 5 -->
-            
-            <!-- PHOTO CONTAINER 6 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_6.jpg" alt="Earth and the Sun">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 6 -->
-            
-            <!-- PHOTO CONTAINER 7 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_7.jpg" alt="Earth and the Moon">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 7 -->
-            
-            <!-- PHOTO CONTAINER 8 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_8.jpg" alt="The Earth as seen from the Moon">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 8 -->
-            
-            <!-- PHOTO CONTAINER 9 -->
-                <div>
-                    <div>
-                        <img src="images/Thumb/thumbnail_9.jpg" alt="Voyager 2">
-                        <div>
-                            <h3>Click to Enlarge</h3>
-                            <p>We have several space launches departing daily, book your flight today!!!</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END PHOTO CONTAINER 9 -->
         </section>
         <!-- END GALLERY -->
         
         <!-- RSPV -->
-        <section>
-            <div id="reservations">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
-                        <h2><span>Your adventure is just around the moon!!!</span>
-                        <br />Reserve your flight today!!!
+        <section id="reservation">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Reservations</h1>
+                    <div class="reservation">
+                        <h2><span>Your adventure is just around the moon</span>
+                        <br>Reserve your flight today!!!
                         </h2>
-                        <p>
-                            Please provide us with your basic contact information
+                        <p class="rsvp-text">
+                            Please provide us with your contact information
                         </p>
-                        <div>
-                            <form action="" method="post">
-                                <input class="rsvp" type="text" value="First Name">
-                                <input class="rsvp" type="text" value="Last Name">
-                                <input class="rsvp" type="text" value="Email Address">
-                                <input class="rsvp" type="text" value="Phone Number">
+                        <div class="form-rsvp">
+                            <form action="" method="POST">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
                                 <div class="form-spacer">
-                                    <label class="terms">Terms and Conditions</label>
+                                    <label class="terms">Terms & Conditions </label>
                                 </div>
-                                <div>
+                                <div class="submit">
                                     <input type="submit" value="submit">
                                 </div>
-                            </form>    
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -175,8 +183,8 @@
         <!-- END RSVP -->
         
         <!-- FOOTER -->
-        <div>
-            Made by William Twomey &#169; 2021
+        <div id="footer">
+            www.thespacestation.com Made by William Twomey &#169; 2021
         </div>
     </body>
 </html>
